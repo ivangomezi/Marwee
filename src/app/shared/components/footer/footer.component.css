@@ -1,0 +1,28 @@
+footer {
+    padding: .7rem 4rem;
+    background-color: rgba(9,3,30,.8);
+}
+footer .navbar-brand {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900 !important;
+    color: #fff;
+}
+footer .row .col:last-child {
+    text-align: end;
+}
+footer .row .col ul {
+    width: max-content;
+}
+footer .row .col:last-child ul {
+    width: unset;
+}
+footer .row .col ul li {
+    font-size: 12px;
+    text-transform: capitalize;
+    list-style: none;
+    padding: 10px;
+}
+footer .row .col ul li:first-child {
+    font-size: 20px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,7 @@
+.container-about {
+    width: 80%;
+    margin: auto;
+}
+.container-about .col:first-child {
+    background: #fff;
+}

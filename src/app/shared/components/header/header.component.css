@@ -1,0 +1,101 @@
+header {
+    padding: 5px 4rem;
+    transition: all 0.5s;
+}
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.navbar-nav {
+    flex-direction: inherit;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+}
+.navbar-nav a {
+    padding: .7rem 1rem;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .2px;
+    transition: all 0.5s;
+}
+.navbar-nav .a:hover {
+    background: -webkit-linear-gradient(40deg, rgba(189,0,118,1) 0%, rgba(251,16,0,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-nav .a-border {
+    border: 2px solid rgba(147,0,69,1);
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+    transition: all 0.5s;
+}
+.navbar-nav .a-border:hover {
+    margin-left: 9.5px;
+    padding: .7rem 1.2rem;
+    font-size: 14px;
+    color: rgba(255,255,255,.6);
+}
+.navbar-nav .a-border .border-top {
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    right: 10px;
+    height: 2px;
+    background: linear-gradient(-40deg, rgba(147,0,69,1) 0%, rgba(73,25,121,1) 70%, rgba(147,0,69,1) 100%);
+    border-top: transparent !important;
+}
+.navbar-nav .a-border .border-bottom {
+    position: absolute;
+    bottom:-2px;
+    left: 12px;
+    right: 12px;
+    height: 2px;
+    background: linear-gradient(40deg, rgba(147,0,69,1) 0%, rgba(73,25,121,1) 70%, rgba(147,0,69,1) 100%);
+    border-bottom: transparent !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.bg-true {
+    background: rgba(9,3,30,.8);
+}
+.txt-true {
+    background: -webkit-linear-gradient(40deg, rgba(189,0,118,1) 0%, rgba(251,16,0,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+.txt-true::before {
+    content: '';
+    color: transparent;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 8px;
+    left: 0;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(-40deg, rgba(189,0,118,1) 0%, rgba(251,16,0,1) 100%);
+    opacity: 0;
+}
+.txt-true::after {
+    content: '';
+    color: transparent;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    bottom: 8px;
+    right: 5px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(-40deg, rgba(189,0,118,1) 0%, rgba(251,16,0,1) 100%);
+    opacity: 0;
+}

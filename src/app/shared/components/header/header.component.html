@@ -1,0 +1,43 @@
+<header id="header_" class="fixed-top">
+  <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" [routerLink]="['home']" >
+              <img src="assets/img/icon/oso.png" alt="logotipo" width="30px" height="24px">
+              Marwee
+              <small style="color: rgba(255, 51, 0,1);">
+                  <strong>• Dev</strong>
+              </small>
+          </a>
+
+          <ul class="navbar-nav d-flex">
+              <li class="nav-item">
+                  <a class="a" id="services" OnClick="inView('section_services');">
+                    Servicios
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="a" id="task" OnClick="inView('section_task');">
+                    Contribuciones
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="a" id="partners" OnClick="inView('section_partners');">
+                    Partners
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="a" id="about" OnClick="inView('section_about');">
+                  Nosotros
+                </a>
+            </li>
+              <li class="nav-item">
+                  <a class="a-border" title="Hablemos de tu idea" OnClick="inView('section_talk');">
+                    Hablemos de tu idea
+                    <div class="border-top"></div>
+                    <div class="border-bottom"></div>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</header>
